@@ -1,0 +1,143 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="858" scrolly="439" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="9xOh0`=J`ZL1.KUmBh`Z" x="-870" y="-450">
+      <field name="LOAD_COMP_ASSETS">FALSE</field>
+      <field name="FULLSCREEN">TRUE</field>
+      <field name="BKG_TRANSPARENCY">FALSE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="initPreloader" id="THBIoeu8M*Z3H19LGu{z" x="-870" y="-270"/>
+  </tab>
+  <tab name="main" type="MainTab" active="true" scrollx="737.0000007470449" scrolly="513.44444570718" scale="1">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="?G;6@coaZglh@l!!(nFj" x="-670" y="-270">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
+      <value name="VALUE">
+        <block type="objectList" id="wgndy@1gfELmkd`w6QEX">
+          <field name="FIELDNAME">uno</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="playAnimationAdv" id="7bnU)[Rr6_m,RgdMg!`g">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="false"></mutation>
+          <field name="REVERSED">FALSE</field>
+          <field name="LOOP">LoopOnce</field>
+          <value name="VALUE">
+            <block type="animationList" id="@eObdk{,R9Kep(z[u5*X">
+              <field name="FIELDNAME">Armature</field>
+            </block>
+          </value>
+          <value name="FROM">
+            <block type="math_number" id="Hc2??(5mVuJ)}HH0B)As">
+              <field name="NUM">1</field>
+            </block>
+          </value>
+          <value name="TO">
+            <block type="math_number" id=":4HjQ;iXjSOUn6Z_SkG]">
+              <field name="NUM">360</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="jinUzczENK:QQ|MfT54l" x="-670" y="-150">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
+      <value name="VALUE">
+        <block type="objectList" id="GpZFX7V1M_[dg8@TX$Jj">
+          <field name="FIELDNAME">dos</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="playAnimationAdv" id="0wKICn{Aqn`$B+mg`Sb$">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="false"></mutation>
+          <field name="REVERSED">FALSE</field>
+          <field name="LOOP">LoopOnce</field>
+          <value name="VALUE">
+            <block type="animationList" id="u{beMhHShN]M(YUbDh8z">
+              <field name="FIELDNAME">Armature</field>
+            </block>
+          </value>
+          <value name="FROM">
+            <block type="math_number" id="|8~@}5BZRP;Z%C_Pl;hz">
+              <field name="NUM">360</field>
+            </block>
+          </value>
+          <value name="TO">
+            <block type="math_number" id="S3p;TxB}$3]Q/@(wt6S?">
+              <field name="NUM">600</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="@IrU!3_%vS`z|q{-wpiZ" x="-670" y="-30">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" enableifmissed="false"></mutation>
+      <value name="VALUE">
+        <block type="objectList" id="iP;=DYBv2g%xV`p(;YW7">
+          <field name="FIELDNAME">tres</field>
+        </block>
+      </value>
+      <statement name="DO">
+        <block type="setAnimationFrame" id="3|h72Egg;08OV)b}LEPk">
+          <value name="VALUE">
+            <block type="animationList" id="#m|p/@GrLRS!J_da$sDK">
+              <field name="FIELDNAME">Armature</field>
+            </block>
+          </value>
+          <value name="FROM">
+            <block type="math_number" id="ourTu8_$TViU4iWvYvTh">
+              <field name="NUM">1</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="addAnnotation" id="U{E4TCIs[/2Y|J^me,[V" x="-650" y="130">
+      <value name="ANNOTATION">
+        <shadow type="text" id="IkY.3RnlK!NFf;.YEs7z">
+          <field name="TEXT">1</field>
+        </shadow>
+      </value>
+      <value name="TARGET">
+        <block type="objectList" id="M^El:|z[R(4z~iJRKpe(">
+          <field name="FIELDNAME">perno_05_annotation</field>
+        </block>
+      </value>
+      <value name="CONTENTS">
+        <shadow type="text" id=".h,WLE)Q5/@-i+Z$Xv(@">
+          <field name="TEXT">pernos de 5  cm</field>
+        </shadow>
+      </value>
+      <value name="ID">
+        <shadow type="text" id="mbJF`,@!JSAY3IjRi2P+">
+          <field name="TEXT">an_1</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="addAnnotation" id="Y+!CJfodl~7u%_Oe%Gp3">
+          <value name="ANNOTATION">
+            <shadow type="text" id="N6L]#!xfm~jX8TYF_XtQ">
+              <field name="TEXT">2</field>
+            </shadow>
+          </value>
+          <value name="TARGET">
+            <block type="objectList" id="u1aMQz,Y[9=bA:=x}J]U">
+              <field name="FIELDNAME">tuboescape_annotation</field>
+            </block>
+          </value>
+          <value name="CONTENTS">
+            <shadow type="text" id="Aa?,n_2mNg]~se:j#(uv">
+              <field name="TEXT">tubo de escape del compresor</field>
+            </shadow>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="*=A`pp6zisL_7]]%@+j5">
+              <field name="TEXT">an_2</field>
+            </shadow>
+          </value>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1113.6" viewport-y="28" viewport-w="754.4" viewport-h="477" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
